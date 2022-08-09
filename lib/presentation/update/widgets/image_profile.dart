@@ -16,15 +16,7 @@ class ImagePro extends StatelessWidget {
   @override
   Widget build(context) {
     return Center(
-      child: image == ''
-          ? Consumer<UpdateProvider>(builder: (ctx, value, Widget? child) {
-              return CircleAvatar(
-                radius: 50,
-                backgroundImage: MemoryImage(const Base64Decoder()
-                    .convert(Provider.of<UpdateProvider>(ctx).image)),
-              );
-            })
-          : Consumer<UpdateProvider>(builder: (ctx, value, Widget? child) {
+          child : Consumer<UpdateProvider>(builder: (ctx, value, Widget? child) {
               return CircleAvatar(
                 radius: 50,
                 backgroundImage: MemoryImage(const Base64Decoder().convert(

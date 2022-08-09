@@ -1,5 +1,4 @@
 import 'dart:convert';
-
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:student_data/presentation/view/show_screen.dart';
@@ -53,7 +52,7 @@ class SearchScreen extends SearchDelegate {
                 trailing: IconButton(
                   onPressed: () {
                     DeleteVerification(context: context, index: index)
-                        .function();
+                        .deleteFunction();
                   },
                   icon: const Icon(
                     Icons.delete,
@@ -109,7 +108,7 @@ class SearchScreen extends SearchDelegate {
                 trailing: IconButton(
                   onPressed: () {
                     DeleteVerification(context: context, index: index)
-                        .function();
+                        .deleteFunction();
                   },
                   icon: const Icon(
                     Icons.delete,

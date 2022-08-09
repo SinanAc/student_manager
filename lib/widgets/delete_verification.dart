@@ -10,7 +10,7 @@ class DeleteVerification{
   required this.index
   });
 
-  function(){
+  deleteFunction(){
     return
    showDialog(
      context:context,

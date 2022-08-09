@@ -41,7 +41,7 @@ class AddScreen extends StatelessWidget {
               const SizedBox(
                 height: 17,
               ),
-              TextFormField(
+              TextField(
                 controller: nameController,
                 decoration: const InputDecoration(
                   border: OutlineInputBorder(
@@ -55,7 +55,7 @@ class AddScreen extends StatelessWidget {
               const SizedBox(
                 height: 7,
               ),
-              TextFormField(
+              TextField(
                 controller: ageController,
                 decoration: const InputDecoration(
                   border: OutlineInputBorder(
@@ -70,7 +70,7 @@ class AddScreen extends StatelessWidget {
               const SizedBox(
                 height: 7,
               ),
-              TextFormField(
+              TextField(
                 controller: domainController,
                 decoration: const InputDecoration(
                   border: OutlineInputBorder(
@@ -84,7 +84,7 @@ class AddScreen extends StatelessWidget {
               const SizedBox(
                 height: 7,
               ),
-              TextFormField(
+              TextField(
                 controller: contactNoController,
                 decoration: const InputDecoration(
                   border: OutlineInputBorder(

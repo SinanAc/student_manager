@@ -30,7 +30,7 @@ class ListWidget extends StatelessWidget {
                 title: Text(data.name),
                 trailing: IconButton(
                   onPressed: () {
-                    DeleteVerification(context: context,index: index).function();  
+                    DeleteVerification(context: context,index: index).deleteFunction();  
                   },
                   icon: const Icon(Icons.delete,color: Colors.red,size: 20,),
                 ),
