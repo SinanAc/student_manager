@@ -7,7 +7,7 @@ import 'package:image_picker/image_picker.dart';
 import 'package:provider/provider.dart';
 import 'package:student_data/data_base/db_functions.dart';
 import 'package:student_data/model/data_model.dart';
-import 'package:student_data/presentation/update/widgets/image_profile.dart';
+import 'package:student_data/view/update/widgets/image_profile.dart';
 import 'package:student_data/provider/update_provider.dart';
 import '../home/home_screen.dart';
 

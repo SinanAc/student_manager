@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:provider/provider.dart';
 import 'package:student_data/model/data_model.dart';
-import 'package:student_data/presentation/splash/splash_screen.dart';
+import 'package:student_data/view/splash/splash_screen.dart';
 import 'package:student_data/provider/add_provider.dart';
 import 'package:student_data/provider/student_list.dart';
 import 'package:student_data/provider/update_provider.dart';

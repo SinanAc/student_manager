@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:student_data/data_base/db_functions.dart';
-import 'package:student_data/presentation/search/search_screen.dart';
+import 'package:student_data/view/search/search_screen.dart';
 import 'package:student_data/provider/add_provider.dart';
 import 'package:student_data/widgets/list_widget.dart';
 import '../add/add_screen.dart';

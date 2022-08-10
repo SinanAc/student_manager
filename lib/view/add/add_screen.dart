@@ -6,8 +6,8 @@ import 'package:image_picker/image_picker.dart';
 import 'package:provider/provider.dart';
 import 'package:student_data/data_base/db_functions.dart';
 import 'package:student_data/model/data_model.dart';
-import 'package:student_data/presentation/add/widgets/image_profile.dart';
-import 'package:student_data/presentation/home/home_screen.dart';
+import 'package:student_data/view/add/widgets/image_profile.dart';
+import 'package:student_data/view/home/home_screen.dart';
 import 'package:student_data/provider/add_provider.dart';
 
 class AddScreen extends StatelessWidget {
