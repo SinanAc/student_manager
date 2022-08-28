@@ -16,7 +16,7 @@ class ImageProfile extends StatelessWidget {
             return CircleAvatar(
               radius: 50,
               backgroundImage: MemoryImage(const Base64Decoder().convert(
-                Provider.of<AddProvider>(ctx).image,
+              value.image,
               )),
               backgroundColor: Colors.grey,
             );

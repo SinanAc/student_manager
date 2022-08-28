@@ -19,7 +19,7 @@ class ShowScreen extends StatelessWidget {
         title: const Text('Details'),
         actions: [IconButton(onPressed: () {
         Provider.of<UpdateProvider>(context, listen: false)
-        .changeName(data.image);  
+        .changeName(data.image); 
           Navigator.of(context).push(
           MaterialPageRoute(builder: (context) => UpdateScreen(data: data, index: index,)));
         },
